@@ -60,6 +60,7 @@ Then add the following properties into your Hibernate configuration file (e.g. `
 	```xml
 	<property name="hibernate.cache.use_minimal_puts">true</property>
 	```
+	
 -   To avoid `NullPointerException` when you have entities that have composite keys(using @IdClass):
 
     ```xml
